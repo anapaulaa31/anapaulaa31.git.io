@@ -64,4 +64,23 @@ footer p{
 }
 
 
+@media(max-width: 760px){
+    main{
+      height: auto;
+    }
+      main div {
+          width: 45%;
+          height: 100vh;
+      }
+  }
+  
+  @media(max-width: 576px){
+      main div {
+          width:98%;
+      }
+  }
 
+
+@media print and (max-width: 600px) {
+    .div{color: black;}
+}
